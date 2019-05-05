@@ -80,10 +80,10 @@ git clone https://github.com/sedlakovi/maps-pycon-2019.git
 ```
 
 Or download it (if you don't have Git). Look for "Clone or download" button at
-https://github.com/sedlakovi/maps-pycon-2019
+[github.com/sedlakovi/maps-pycon-2019](https://github.com/sedlakovi/maps-pycon-2019) and
+choose "Download ZIP".
 
 ![Clone or download](download.jpg)
-
 
 
 
