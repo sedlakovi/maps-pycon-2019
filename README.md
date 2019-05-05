@@ -71,7 +71,7 @@ and their versions.
 If the installation finishes differently, you're probably missing something in system and
 you need to install it. The error message will contain some hints that you can google.
 
-#### 3.
+#### 3. Just before the workshop
 
 Check out the workshop repository (if you have Git)
 
