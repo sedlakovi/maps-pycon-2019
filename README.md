@@ -1,37 +1,94 @@
-## Welcome to GitHub Pages
+# [Put Your Data on the Map with Plotly (and Ease)][pycon-workshop]
 
-You can use the [editor on GitHub](https://github.com/sedlakovi/maps-pycon-2019/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Materials for workshop at Pycon.cz '19 Ostrava. Brought to you by
+[**Sedlakovi.org**][sedlakovi].
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Presentations
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+You'll find slides linked here.
 
-```markdown
-Syntax highlighted code block
+## Cheat sheets
 
-# Header 1
-## Header 2
-### Header 3
+- [Plot.ly](https://github.com/sedlakovi/interactive-dashboards/blob/master/docs/plotly_cheat_sheet.pdf)
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+## Data sources
 
-**Bold** and _Italic_ and `Code` text
+- UFO Sightings ([Kaggle][ufo-kaggle], [original csv][ufo-github])
 
-[Link](url) and ![Image](src)
+## Useful links
+
+- [Charts in Plotly](https://plot.ly/python/basic-charts/)
+- [Folium](https://python-visualization.github.io/folium/)
+
+## Installation
+
+For this workshop, you'll need:
+
+- Python **3**
+- Pandas (for data analysis)
+- Jupyter Notebook (for interactive work)
+- Matplotlib and Plot.ly (they draw charts)
+- Folium (draws maps better than Plotly)
+- XLRD (reads Excel files - just in case)
+
+If you already have Python 3 (plain or Anaconda), just install these PIP packages:
+
+```
+jupyter pandas matplotlib plotly folium xlrd
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+If not, follow next steps.
 
-### Jekyll Themes
+### Steps
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sedlakovi/maps-pycon-2019/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#### 1.
 
-### Support or Contact
+Install Python **3**. You can follow [the tutorial at realpython.com][python-install].
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+**Important** - If your Windows user name contains spaces or non-english characters
+(háčky, čárky, кириллица), choose "Customize installation" and choose path that will be
+outside of "C:\Users\Your name". Otherwise, some packages might not install properly.
+
+Pozn.: In Linux, you'll need to install `pip` extra. In Ubuntu, use
+`sudo apt install python3-pip`.
+
+#### 2.
+
+In console, run
+
+    pip3 install --upgrade jupyter pandas matplotlib plotly folium xlrd
+
+_Tip: In Windows, you can start console by pressing the Win key, then typing cmd. You copy
+into the console with right mouse button._
+
+Installation should finish with words `Successfully installed` and a list of many packages
+and their versions.
+
+![Installation finished](packages-finish.jpg)
+
+If the installation finishes differently, you're probably missing something in system and
+you need to install it. The error message will contain some hints that you can google.
+
+#### 3.
+
+Check out the workshop repository (if you have Git)
+
+```
+git clone https://github.com/sedlakovi/maps-pycon-2019.git
+```
+
+Or download it (if you don't have Git). Look for "Clone or download" button at
+https://github.com/sedlakovi/maps-pycon-2019
+
+![Clone or download](download.jpg)
+
+
+
+
+[pycon-workshop]: https://cz.pycon.org/2019/programme/workshops/13/#main
+[sedlakovi]: https://www.sedlakovi.org
+[python-install]: https://realpython.com/installing-python/
+[ufo-kaggle]: https://www.kaggle.com/NUFORC/ufo-sightings
+[ufo-github]: https://github.com/planetsig/ufo-reports
