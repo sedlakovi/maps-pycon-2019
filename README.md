@@ -15,7 +15,7 @@ You'll find slides linked here.
 
 ## Data sources
 
-- UFO Sightings ([Kaggle][ufo-kaggle], [original csv][ufo-github])
+- World happiness report ([Kaggle][happy-kaggle])
 
 ## Useful links
 
@@ -90,5 +90,5 @@ choose "Download ZIP".
 [pycon-workshop]: https://cz.pycon.org/2019/programme/workshops/13/#main
 [sedlakovi]: https://www.sedlakovi.org
 [python-install]: https://realpython.com/installing-python/
-[ufo-kaggle]: https://www.kaggle.com/NUFORC/ufo-sightings
+[happy-kaggle]: https://www.kaggle.com/unsdsn/world-happiness
 [ufo-github]: https://github.com/planetsig/ufo-reports
