@@ -24,6 +24,8 @@ You'll find slides linked here.
 
 ## Installation
 
+**Important note: size of the repository is big (approx. 100 MB), so please download it at home.**
+
 For this workshop, you'll need:
 
 - Python **3**
@@ -32,11 +34,12 @@ For this workshop, you'll need:
 - Matplotlib and Plot.ly (they draw charts)
 - Folium (draws maps better than Plotly)
 - XLRD (reads Excel files - just in case)
+- geojson (to edit GeoJSON file)
 
 If you already have Python 3 (plain or Anaconda), just install these PIP packages:
 
 ```
-jupyter pandas matplotlib plotly folium xlrd
+jupyter pandas matplotlib plotly folium xlrd geojson
 ```
 
 If not, follow next steps.
@@ -58,7 +61,7 @@ Pozn.: In Linux, you'll need to install `pip` extra. In Ubuntu, use
 
 In console, run
 
-    pip3 install --upgrade jupyter pandas matplotlib plotly folium xlrd
+    pip3 install --upgrade jupyter pandas matplotlib plotly folium xlrd geojson
 
 _Tip: In Windows, you can start console by pressing the Win key, then typing cmd. You copy
 into the console with right mouse button._
