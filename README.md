@@ -6,7 +6,7 @@ Materials for workshop at Pycon.cz '19 Ostrava. Brought to you by
 
 ## Presentations
 
-You'll find slides linked here.
+- [Introduction](introduction.slides.html)
 
 ## Cheat sheets
 
