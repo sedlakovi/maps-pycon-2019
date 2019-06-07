@@ -1,4 +1,4 @@
-# [Put Your Data on the Map with Plotly (and Ease)][pycon-workshop]
+# [Put Your Data on the Map with Ease][pycon-workshop]
 
 Materials for workshop at Pycon.cz '19 Ostrava. Brought to you by
 [**Sedlakovi.org**][sedlakovi].
@@ -8,9 +8,21 @@ Materials for workshop at Pycon.cz '19 Ostrava. Brought to you by
 
 - [Introduction](introduction.slides.html)
 
+## Jupyter Notebooks
+
+- [Data cleaning](data-cleaning.ipynb)
+- [Plot.ly](plotly.ipynb)
+- [Folium](folium.ipynb)
+
+## Maps
+
+- [Plot.ly](output/plotly_choropleth.html)
+- [Folium](output/folium_choropleth.html)
+
 ## Cheat sheets
 
 - [Plot.ly](https://github.com/sedlakovi/interactive-dashboards/blob/master/docs/plotly_cheat_sheet.pdf)
+- [Folium](https://www.andrewchallis.co.uk/portfolio/python-a-folium-cheatsheet/)
 
 
 ## Data sources
@@ -31,7 +43,7 @@ For this workshop, you'll need:
 - Python **3**
 - Pandas (for data analysis)
 - Jupyter Notebook (for interactive work)
-- Matplotlib and Plot.ly (they draw charts)
+- Matplotlib and Plot.ly (they draw charts), **please install `3.7.1` version**
 - Folium (draws maps better than Plotly)
 - XLRD (reads Excel files - just in case)
 - geojson (to edit GeoJSON file)
@@ -39,7 +51,7 @@ For this workshop, you'll need:
 If you already have Python 3 (plain or Anaconda), just install these PIP packages:
 
 ```
-jupyter pandas matplotlib plotly folium xlrd geojson
+jupyter pandas matplotlib plotly==3.7.1 folium xlrd geojson
 ```
 
 If not, follow next steps.
@@ -61,7 +73,7 @@ Pozn.: In Linux, you'll need to install `pip` extra. In Ubuntu, use
 
 In console, run
 
-    pip3 install --upgrade jupyter pandas matplotlib plotly folium xlrd geojson
+    pip3 install --upgrade jupyter pandas matplotlib plotly==3.7.1 folium xlrd geojson
 
 _Tip: In Windows, you can start console by pressing the Win key, then typing cmd. You copy
 into the console with right mouse button._
