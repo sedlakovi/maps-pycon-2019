@@ -66,7 +66,7 @@ Install Python **3**. You can follow [the tutorial at realpython.com][python-ins
 (háčky, čárky, кириллица), choose "Customize installation" and choose path that will be
 outside of "C:\Users\Your name". Otherwise, some packages might not install properly.
 
-Pozn.: In Linux, you'll need to install `pip` extra. In Ubuntu, use
+Note: In Linux, you might need to install `pip` extra. In Ubuntu, use
 `sudo apt install python3-pip`.
 
 #### 2.
