@@ -32,7 +32,13 @@ Materials for workshop at Pycon.cz '19 Ostrava. Brought to you by
 ## Useful links
 
 - [Charts in Plotly](https://plot.ly/python/basic-charts/)
+- [Colorscales in Plotly](https://plot.ly/python/colorscales/)
 - [Folium](https://python-visualization.github.io/folium/)
+- [XKCD comics - map projections](https://xkcd.com/977/)
+- [Validate GeoJSON](https://geojson.io/#map=2/20.0/0.0)
+- [True size of countries](https://thetruesize.com)
+- [OSM XML to GeoJSON converter](https://tyrasd.github.io/osmtogeojson/)
+- [Static maps using `matplotlib` `basemap`](https://matplotlib.org/basemap/users/index.html)
 
 ## Installation
 
